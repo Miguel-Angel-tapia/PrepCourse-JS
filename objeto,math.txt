@@ -40,3 +40,11 @@ Math.random
 Este último método nos permitirá generar un número aleatorio. Es importante tener en cuenta que el número que se generará es decimal, y puede ser cualquiera entre el 0 y el 1.
 
 math.random(); = 0.8051478163546508
+
+Math.sqrt()
+La función Math.sqrt() retorna la raíz cuadrada de un número,
+Valor de Retorno
+La raíz cuadrada del número proporcionado. Si los números son negativos, NaN es devuelto.
+Si el valor de x es negativo Math.sqrt() retorna NaN.
+
+Debido a que sqrt() es un método estático de Math, siempre úsalo como Math.sqrt(), en lugar de un método del objeto Math que hayas creado (Math no es un constructor).
