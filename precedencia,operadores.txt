@@ -1,0 +1,14 @@
+ La precedencia de operadores determina el orden en el cual los operadores son evaluados uno respecto del otro. Los operadores con mayor precedencia se convierten en los operandos de los operadores con menor precedencia. 
+ 
+ 
+ La precedencia de un operador indica qué tan "estrechamente" se unen dos expresiones, en la expresión 1 + 5 * 3, la respuesta es 16 y no 18 porque el operador de multiplicación ("*") tiene una precedencia mayor que el operador de adición ("+"). Los paréntesis pueden ser usados para forzar la precedencia, si es necesario. Por ejemplo: (1 + 5) * 3,  se evalúa como 18. Cuando los operadores tienen la misma precedencia, su asociatividad decide si se evalúan a partir de la derecha o desde la izquierda.
+
+La siguiente tabla lista los operadores en orden de mayor precedencia (19) a menor precedencia (1) 
+Los operadores en la misma línea tienen la misma precedencia, la asociatividad decide cuál es el orden de evaluación. Para operadores de igual precedencia, asociatividad izquierda significa que la evaluación procede de la izquierda a la derecha y asociatividad derecha significa lo opuesto. 
+
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#tabla
+
+
+
+

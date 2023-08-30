@@ -1,0 +1,19 @@
+Bucle For
+Por un lado, el Bucle For es utilizado cuando sabemos con antelación la cantidad máxima exacta de pasos que queremos ejecutar. Esta cantidad máxima de pasos se sitúa como segundo parámetro entre los paréntesis.
+
+Bucle while
+El Bucle While es usado cuando no tenemos la certeza de cuántos pasos vamos a necesitar hasta finalizar la ejecución. Por ejemplo, podríamos pensar en una función que siga agregando +1 hasta llegar a un número determinado. 
+
+Bucle Do-While
+El bucle Do-While (hacer mientras) ejecuta una sentencia especificada, hasta que la condición de comprobación se evalúa como falsa. La condición se evalúa después de ejecutar la sentencia, dando como resultado que la sentencia especificada se ejecute al menos una vez.
+
+Declaración Continue
+La declaración continue se utiliza dentro de los Bucles For. Nos permite omitir alguna de las iteraciones si se cumple una condición específica
+
+Break
+La declaración break se utiliza dentro de los Bucles For. Nos permite "romper" o finalizar el bucle con antelación si se cumple una condición específica. 
+
+
+A continuación te compartimos algunos recursos adicionales, que te serán útiles para ampliar ampliar tu conocimiento sobre este estema.
+
+https://rise.articulate.com/share/O0SjmUFcjx_3AXSA2lizESbHitgJIOpq#/lessons/EtoAcwXl6cwoY1Lm2LblMuszbB964Bda

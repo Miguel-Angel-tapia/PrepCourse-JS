@@ -1,0 +1,13 @@
+¿Alguna vez escuchaste el término veracidad? Como el nombre lo indica, refiere a la verdad de algo. Es decir, si es verdadero o falso.
+
+Como ya sabemos, dentro de JavaScript existe un tipo de dato booleano que toma estos dos valores. Y como cualquier otro lenguaje, su forma de procesar lógica se basa en un sistema binario. Unos y ceros. Verdaderos y falsos. Es por esto que absolutamente todos los datos dentro de este lenguaje pueden ser resumidos a estos dos valores. 
+  
+1           // true
+0           // false
+-1          // true
+true        // true
+false       // false
+'string'    // true
+null        // false
+undefined   // false
+[]          // true
