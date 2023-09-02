@@ -57,4 +57,27 @@ let masUno = numero.map((num) => {
 });
 console.log(masUno);
 
+// El método reduce() ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor
+//La función reductora recibe cuatro argumentos:
+
+//Acumulador (acc)
+//Valor Actual (cur)
+//Índice Actual (idx)
+//Array (src)
+//El valor devuelto de la función reductora se asigna al acumulador, cuyo valor se recuerda en cada iteración de la matriz y, en última instancia, se convierte en el valor final, único y resultante.
+
+//Sintaxis
+//    arr.reduce(callback(acumulador, valorActual[, índice[, array]])[, valorInicial])
+
+let array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+let initialValue = 0;
+let sumWithInitial = array1.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
+
 //mas elementos de array https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
