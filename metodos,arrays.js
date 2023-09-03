@@ -57,6 +57,13 @@ let masUno = numero.map((num) => {
 });
 console.log(masUno);
 
+//El método toString() devuelve una cadena de caracteres representando el array especificado y sus elementos.
+
+let array17 = [1, 2, "a", "1a"];
+
+console.log(array17.toString());
+// Expected output: "1,2,a,1a"
+
 // El método reduce() ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor
 //La función reductora recibe cuatro argumentos:
 
