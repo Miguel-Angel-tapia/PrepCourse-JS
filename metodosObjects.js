@@ -34,3 +34,27 @@ var mascota = {
   },
 };
 mascota.info();
+
+//hasOwnProperty(propiedad): Verifica si el objeto tiene una propiedad con el nombre especificado y devuelve true o false.
+
+//Object.keys(objeto): Devuelve un array de strings que representan todas las propiedades enumerables del objeto.
+
+// Object.values(objeto): Devuelve un array de los valores de todas las propiedades enumerables del objeto.
+
+// Object.entries(objeto): Devuelve un array de arrays, donde cada subarray contiene un par[clave, valor] de cada propiedad enumerable del objeto.
+
+//  Object.assign(objetoDestino, ...objetosOrigen): Copia las propiedades de uno o más objetos origen en un objeto destino.Devuelve el objeto destino modificado.
+
+// Object.freeze(objeto): Congela el objeto, lo que significa que no se pueden agregar, eliminar ni modificar sus propiedades existentes.Devuelve el objeto congelado.
+
+//  Object.seal(objeto): Sella el objeto, lo que significa que no se pueden agregar ni eliminar propiedades, pero aún se pueden modificar las propiedades existentes.Devuelve el objeto sellado.
+
+// Object.getOwnPropertyNames(objeto): Devuelve un array de strings que representan todas las propiedades(enumerables y no enumerables) del objeto.
+
+// Object.getOwnPropertyDescriptors(objeto): Devuelve un objeto que contiene los descriptores de todas las propiedades del objeto, incluyendo sus configuraciones(por ejemplo, si son configurables, enumerables, etc.).
+
+// Object.create(prototipo): Crea un nuevo objeto con el prototipo especificado.Es útil para crear herencia en JavaScript.
+
+//Object.getPrototypeOf(objeto): Devuelve el prototipo del objeto.
+
+//  Object.setPrototypeOf(objeto, prototipo): Establece el prototipo del objeto con el prototipo especificado.

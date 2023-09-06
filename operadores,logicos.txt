@@ -18,3 +18,5 @@ Lo mismo para la declaración ||. Si la primera expresión es verdadero, la segu
 operador not ! : se podria decir que not! nos devuelve el valor contrario de el que tiene
                  por delante, es decir. !true nos devuelve false, y !false nos devuelve true 
 Utiliza paréntesis. Como vimos en el segundo ejemplo de la negación !, utilizamos paréntesis para evaluar PRIMERO lo que estaba dentro de ellos, y luego aplicamos la negación. Podemos ajustar cualquier expresión entre paréntesis y se evaluará antes que toda la expresión en conjunto.
+
+
