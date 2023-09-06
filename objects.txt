@@ -1,0 +1,16 @@
+// los objetos también son una estructura en la que se puede guardar todo tipo de información
+
+//sintaxis    variable     nombreObjeto =             {};
+//         let/var/const     nombre       llaves que indican que es objeto
+
+let deportes = {
+  conBalon: ["futbol", "basquet", "rugby"],
+  sinBalon: ["boxeo", "surf", "trekking"],
+};
+let persona = { nombres: "lucas", edad: 26, estudios: { esProgramador: true } };
+
+//A diferencia de las matrices que tienen elementos valorados en índices, los objetos usan un concepto llamado pares de clave:valor.
+
+//La clave (key) es el identificador y el valor (value) es el valor que queremos guardar en esa clave. La sintaxis es "clave: valor". Los objetos pueden contener muchos pares de clave-valor, deben estar separados por una coma (importante: sin punto y coma dentro de un objeto).
+
+//Las claves son únicas en un objeto, solo puede haber una clave de ese nombre, aunque, varias claves pueden tener el mismo valor. Los valores pueden ser cualquier tipo de dato de Javascript; cadena, número, booleano, matriz, función o incluso otro objeto.

@@ -1,5 +1,6 @@
 Bucle For
 Por un lado, el Bucle For es utilizado cuando sabemos con antelación la cantidad máxima exacta de pasos que queremos ejecutar. Esta cantidad máxima de pasos se sitúa como segundo parámetro entre los paréntesis.
+SOLO PODEMOS RECORRER ARREGLOS ELEMENTO POR ELEMENTO
 
 Bucle while
 El Bucle While es usado cuando no tenemos la certeza de cuántos pasos vamos a necesitar hasta finalizar la ejecución. Por ejemplo, podríamos pensar en una función que siga agregando +1 hasta llegar a un número determinado. 
@@ -17,3 +18,9 @@ La declaración break se utiliza dentro de los Bucles For. Nos permite "romper" 
 A continuación te compartimos algunos recursos adicionales, que te serán útiles para ampliar ampliar tu conocimiento sobre este estema.
 
 https://rise.articulate.com/share/O0SjmUFcjx_3AXSA2lizESbHitgJIOpq#/lessons/EtoAcwXl6cwoY1Lm2LblMuszbB964Bda
+
+
+
+ACLARAR el bucle for solo sirve para recorrer arrays elemento por elemento
+
+        el bucle for in solo sirve para recorrer objetos propiedad por propiedad

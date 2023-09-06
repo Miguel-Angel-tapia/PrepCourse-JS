@@ -1,0 +1,29 @@
+
+1
+El método hasOwnProperty() nos permitirá especificar un nombre, y verificar si este existe como una propiedad dentro de un objeto. En cada caso devolverá true o false.
+
+2
+El método Object.keys() devuelve todas las propiedades de un objeto guardadas en orden dentro de un arreglo.
+
+
+
+Recorridos en objetos:
+De la misma manera que podíamos recorrer los elementos de un arreglo, podemos recorrer las propiedades de un objeto junto con sus valores.
+
+El bucle For-In nos permite iterar sobre un objeto utilizando dos variables pivot. Una representa el objeto que recorremos, y la otra la propiedad en la que se está realizando la iteración. Utilizando ambos valores podremos acceder al valor de cada propiedad del objeto.
+
+
+
+
+Te invitamos a que revises la sección de "métodos" sobre objetos para conocer muchos otros que te puede ser de utilidad! :https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+
+Contextos en JavaScript
+
+Dentro de este lenguaje de programación existe un objeto global llamado this. Este nos permite manipular el contexto en el que las funciones y la información está siendo ejecutada. De esta forma podremos tener un alcance más preciso dentro de nuestro código.
+Te invitamos a que investigues más sobre el objeto this. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/this
+
+
+ACLARAR el bucle for solo sirve para recorrer arrays elemento por elemento
+
+        el bucle for in solo sirve para recorrer objetos propiedad por propiedad
