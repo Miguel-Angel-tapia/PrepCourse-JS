@@ -1,0 +1,14 @@
+Las expresiones regulares son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas. En JavaScript, las expresiones regulares también son objetos. Estos patrones se utilizan con los métodos exec() y test() de RegExp, y con match(), matchAll(), replace(), replaceAll(), search() y split() métodos de String. Este capítulo describe las expresiones regulares de JavaScript.
+
+
+Construyes una expresión regular en una de estas dos formas:
+
+Usando una expresión regular literal, que consiste en un patrón encerrado entre barras, como sigue:
+
+let re = /ab+c/;
+
+Las expresiones regulares literales proporcionan la compilación de la expresión regular cuando se carga el script. Si la expresión regular permanece constante, su uso puede mejorar el rendimiento.
+
+O llamando a la función constructora del objeto RegExp, de la siguiente manera:
+
+let re = new RegExp("ab+c");

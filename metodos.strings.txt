@@ -1,0 +1,8 @@
+El método toLowerCase() devuelve el valor de la cadena convertida a minúsculas. toLowerCase() no afecta al valor de la cadena en sí misma.
+
+
+El toUpperCase() método devuelve el valor convertido en mayúsculas de la cadena que realiza la llamada.
+
+El método slice() devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.
+
+El charAt()método de Stringvalores devuelve una nueva cadena que consta de una única unidad de código UTF-16 en el índice dado.
