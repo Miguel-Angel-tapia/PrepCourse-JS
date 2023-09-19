@@ -39,7 +39,16 @@ switch (expresión) {
     break;
 }
 
+//El método forEach() ejecuta la función indicada una vez por cada elemento del array.
 //Bucle infinito
+const array1 = ["a", "b", "c"];
+
+array1.forEach((element) => console.log(element));
+
+// retorna: "a"
+// retorna: "b"
+// retorna: "c"
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
 //Esto no es un nuevo tipo de bucle, sino algo que se puede producir en los que ya aprendimos. Un bucle infinito se produce cuando un bucle comienza a ejecutarse, pero jamás termina. Esto se debe a que nunca se llega a la condición de quiebre.
 
