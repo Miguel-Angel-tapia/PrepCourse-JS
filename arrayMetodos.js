@@ -1,13 +1,23 @@
 let colores = ["amarillo", "azul"];
+
 //El método push() añade uno o más elementos al final de un arreglo, y devuelve la nueva longitud del array.
 colores.push("rojo");
+
 //El método unshift() agrega uno o más elementos al inicio de un arreglo, y devuelve la nueva longitud del array.
 colores.unshift("verde");
+
 //El método pop() elimina y devuelve el último elemento de un arreglo.
 colores.pop();
+
 //El método shift() elimina y devuelve el primer elemento de un arreglo.
 colores.shift();
-console.log(colores);
+
+//El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+colores.splice(1, 2, "marron"); //(puede agregar mas de uno)
+//1(desde que indice elimina incluido)
+//2(cuantos indices elimina incluyendo donde empieza)
+
+//El método sort()ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable . El modo de ordenación por defecto responde a la posición del valor de la cadena de acuerdo a su valor Unicode
 
 //El método includes() determina si un arreglo incluye o contiene un elemento específico. Devuelve true o false en cada caso.
 let pintores = ["picaso", "dali", "van gogh", "velazques"];

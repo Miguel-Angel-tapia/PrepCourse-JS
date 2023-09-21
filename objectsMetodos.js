@@ -37,11 +37,15 @@ mascota.info();
 
 //hasOwnProperty(propiedad): Verifica si el objeto tiene una propiedad con el nombre especificado y devuelve true o false.
 
+//El método sort()ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable . El modo de ordenación por defecto responde a la posición del valor de la cadena de acuerdo a su valor Unicode
+
 //Object.keys(objeto): Devuelve un array de strings que representan todas las propiedades enumerables del objeto.
 
 // Object.values(objeto): Devuelve un array de los valores de todas las propiedades enumerables del objeto.
 
 // Object.entries(objeto): Devuelve un array de arrays, donde cada subarray contiene un par[clave, valor] de cada propiedad enumerable del objeto.
+var obj = { foo: "bar", baz: 42 };
+console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
 
 //  Object.assign(objetoDestino, ...objetosOrigen): Copia las propiedades de uno o más objetos origen en un objeto destino.Devuelve el objeto destino modificado.
 
