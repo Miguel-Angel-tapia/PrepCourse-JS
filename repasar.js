@@ -45,3 +45,4 @@ console.log(obtenerInfo[2][0]); //pais
 console.log(obtenerInfo[2][1]); //argentina
 
 //filter
+//typeof

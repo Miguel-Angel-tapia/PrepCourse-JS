@@ -1,5 +1,11 @@
 let colores = ["amarillo", "azul"];
 
+//length: Devuelve la longitud (número de elementos) del array.
+console.log(frutas.length); // Imprime 2
+
+//indexOf: Devuelve el índice de la primera aparición de un elemento.
+console.log(frutas.indexOf("amarillo")); // Imprime 0
+
 //El método push() añade uno o más elementos al final de un arreglo, y devuelve la nueva longitud del array.
 colores.push("rojo");
 
@@ -23,8 +29,8 @@ colores.splice(1, 2, "marron"); //(puede agregar mas de uno)
 let pintores = ["picaso", "dali", "van gogh", "velazques"];
 let incluyeMiguel = pintores.includes("miguel");
 let incluyeDali = pintores.includes("dali");
-console.log(incluyeDali);
-console.log(incluyeMiguel);
+console.log(incluyeDali); //true
+console.log(incluyeMiguel); //false
 
 //El método every() determina si todos los elementos en un arreglo satisfacen una misma condición.
 let numeros = [1, 4, 8, 5, 9];

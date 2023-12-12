@@ -1,9 +1,39 @@
 //los operadores de comparacion, devuelven valores booleanos
 //Operaciones de comparación
-console.log(4 < 7); //4 es menor que 7? true
-console.log(4 < 1); //4 es menor que 1? false
-console.log(4 > 4); //4 es mayor que 4?false
-console.log(4 == 7); //4 es igual a 7? false
+
+//Operador < (Menor que):
+//Devuelve true si el valor a la izquierda es estrictamente menor que el valor a la derecha; de lo contrario, devuelve false.
+console.log(4 < 7); // 4 es menor que 7? true
+console.log(4 < 1); // 4 es menor que 1? false
+console.log(4 < 4); //4 es menor que 4?false
+console.log("abc" < "def"); // menor Comparación de cadenas basada en orden lexicográfico (códigos Unicode) true
+
+//Operador > (Mayor que):
+//Devuelve true si el valor a la izquierda es estrictamente mayor que el valor a la derecha; de lo contrario, devuelve false.
+
+//Operador <= (Menor o igual que):
+//Devuelve true si el valor a la izquierda es menor o igual que el valor a la derecha; de lo contrario, devuelve false.
+console.log(4 <= 7); // 4 es menor o igual que 7? true
+console.log(4 <= 1); // 4 es menor o igual que 1? false
+console.log(4 <= 4); //4 es menor o igual que 4? true
+
+//Operador >= (Mayor o igual que):
+//Devuelve true si el valor a la izquierda es mayor o igual que el valor a la derecha; de lo contrario, devuelve false.
+console.log(4 >= 7); // 4 es mayor o igual que 7? false
+console.log(4 >= 1); // 4 es mayor o igual que 1? true
+console.log(4 >= 4); //4 es mayor o igual que 4? true
+
+//Operador === (Igual que):
+//Devuelve true si los valores son iguales en tipo y valor; de lo contrario, devuelve false. Es una comparación estricta.
+console.log(4 === "4"); // 4 es igual a "4"? false
+console.log(4 === 4); // 4 es igual a 4? true
+
+//Operador !== (No igual que):
+//Devuelve true si los valores no son iguales en tipo o valor; de lo contrario, devuelve false. Es una comparación estricta.
+console.log(4 !== "4"); // 4 no es igual a "4"? true
+console.log(4 !== 4); // 4 no es igual a 4? false
+
+//Estos operadores son fundamentales en la lógica de control de flujo y toma de decisiones en JavaScript. Puedes utilizarlos en estructuras como if, else, switch, entre otros, para realizar acciones condicionales basadas en comparaciones.
 
 //Igualdad vs igualdad estricta
 
