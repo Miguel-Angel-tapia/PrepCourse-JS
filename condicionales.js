@@ -51,7 +51,13 @@ if (esFinDeSemana) {
 
 //Operador Ternario (?):
 //El operador ternario proporciona una forma más concisa de escribir condicionales.
+//sintaxis: condicion ? expresion_si_verdadero : expresion_si_falso;
+//condicion: Una expresión que se evalúa como verdadera o falsa.
+//expresion_si_verdadero: El valor que se devuelve si la condición es verdadera.
+//expresion_si_falso: El valor que se devuelve si la condición es falsa.
 let eedad = 20;
+//...........(.condicion..)..(cumple condicion)....(no cumple condicion)
+//..........(Si edad es+18)  (entonces devuelve)    (si no, devuelve )
 let mensaje = eedad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
 console.log(mensaje);
 

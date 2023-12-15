@@ -19,9 +19,19 @@ colores.pop();
 colores.shift();
 
 //El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+//splice(inicio, cantidad[, elemento1[, elemento2[, ...]]]):
+const numerros = [1, 2, 3, 4, 5];
+numerros.splice(2, 1, 6, 7);
+// Resultado: [1, 2, 6, 7, 4, 5]
+
 colores.splice(1, 2, "marron"); //(puede agregar mas de uno)
 //1(desde que indice elimina incluido)
 //2(cuantos indices elimina incluyendo donde empieza)
+
+//slice(inicio[, fin]): el metodo Devuelve una copia de una porción del array, especificada por el inicio y el fin.  slice(inicio[, fin]):
+const numeeeeros = [1, 2, 3, 4, 5];
+const subArray = numeeeeros.slice(1, 3);
+// Resultado: [2, 3]
 
 //El método sort()ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable . El modo de ordenación por defecto responde a la posición del valor de la cadena de acuerdo a su valor Unicode
 
@@ -42,6 +52,14 @@ let noCumpleCondicion = numeros.every((num) => {
 });
 console.log(cumpleCondicion);
 console.log(noCumpleCondicion);
+const nnnumeros = [1, 2, 3, 4, 5];
+const todosMayoresQueCero = nnnumeros.every((numero) => numero > 0);
+// Resultado: true
+
+//indexOf : el metodo Buscan la primera (o última) ocurrencia de un valor en el array. indexOf(valor[, desde]) y lastIndexOf(valor[, desde])
+const numeross = [1, 2, 3, 4, 2, 5];
+const indice = numeross.indexOf(2);
+// Resultado: 1
 
 //El método split() convierte un string en un array, donde cada elemento contendrá un sub-string, dependiendo del parámetro divisor que indiquemos.
 let palabra = "henri";
@@ -73,6 +91,27 @@ let masUno = numero.map((num) => {
 });
 console.log(masUno);
 
+//Crea un nuevo array aplicando una función a cada elemento del array original.
+const nnumeros = [1, 2, 3];
+const duplicados = nnumeros.map((numero) => numero * 2);
+// Resultado: [2, 4, 6]
+
+//filter(callback):
+//el metodo filter() Crea un nuevo array con los elementos que cumplen una condición dada por la función de filtrado.
+const nuumeros = [1, 2, 3, 4, 5];
+const pares = nuumeros.filter((numero) => numero % 2 === 0);
+// Resultado: [2, 4]
+
+//find(callback): este metodo Devuelve el primer elemento que cumple con la condición dada por la función de prueba.
+const nummeros = [1, 2, 3, 4, 5];
+const encontrado = nummeros.find((numero) => numero > 2);
+// Resultado: 3
+
+//some(callback): el metodo Verifica si al menos un elemento cumple con la condición dada por la función de prueba.
+const numeeros = [1, 2, 3, 4, 5];
+const hayPares = numeeros.some((numero) => numero % 2 === 0);
+// Resultado: true
+
 //El método toString() devuelve una cadena de caracteres representando el array especificado y sus elementos.
 
 let array17 = [1, 2, "a", "1a"];
@@ -92,6 +131,11 @@ console.log(array17.toString());
 //Sintaxis
 //    arr.reduce(callback(acumulador, valorActual[, índice[, array]])[, valorInicial])
 
+const arr = [1, 2, 3, 4, 5];
+const sumas = arr.reduce((acc, cur) => acc + cur, 0); //abreviado nombres parametros
+console.log(sumas); // Resultado: 15
+
+//ej:
 let array1 = [1, 2, 3, 4];
 
 // 0 + 1 + 2 + 3 + 4
@@ -100,7 +144,28 @@ let sumWithInitial = array1.reduce(
   (accumulator, currentValue) => accumulator + currentValue,
   initialValue
 );
+console.log(sumWithInitial); //imprime 10
 
-console.log(sumWithInitial);
+//otro ej
+const numeritos = [1, 2, 3, 4, 5];
+
+const suma = numeritos.reduce(function (acumulador, numero) {
+  return acumulador + numero;
+}, 0);
+
+console.log(suma); // Resultado: 15
+
+//const numeros = [1, 2, 3, 4, 5];: Creamos un array llamado numeros que contiene los números del 1 al 5.
+//const suma = numeros.reduce(function(acumulador, numero) { ... }, 0);: Utilizamos el método reduce() en el array numeros.
+//function(acumulador, numero) { return acumulador + numero; }: La función reductora recibe dos argumentos en cada iteración: acumulador y numero. En este caso, simplemente suma el acumulador actual y el número actual.
+//0 (valor inicial del acumulador): Se proporciona como segundo argumento a reduce(). En la primera iteración, acumulador toma el valor inicial de 0 y se suma con el primer número del array.
+//console.log(suma); // Resultado: 15: Imprimimos el resultado final de la suma, que es 15.
+
+//const numeros = [1, 2, 3, 4, 5];
+
+//const suma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+console.log(suma); // Resultado: 15
+
+//El método reduce() es muy versátil y se puede utilizar para realizar una variedad de operaciones, como encontrar el valor máximo o mínimo, concatenar elementos de un array, realizar operaciones de transformación y más. La clave es entender cómo funciona la función reductora y cómo se acumulan los valores a lo largo del proceso.
 
 //mas elementos de array https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array

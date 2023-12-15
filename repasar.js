@@ -46,3 +46,4 @@ console.log(obtenerInfo[2][1]); //argentina
 
 //filter
 //typeof
+//operador tenario

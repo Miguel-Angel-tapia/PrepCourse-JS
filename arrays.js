@@ -1,4 +1,5 @@
-//un array es una estructura de datos que permite almacenar varios valores en una sola variable. Cada elemento en un array tiene un índice que indica su posición en la lista. Los índices en JavaScript comienzan desde cero.
+//un array es una estructura de datos que permite almacenar varios elementos o valores en una sola variable.
+//Cada elemento en un array tiene un índice que indica su posición en la lista.Los índices en JavaScript comienzan desde cero.
 
 //Creación de un Array:
 //Puedes crear un array de varias maneras. La forma más común es utilizando corchetes [] y separando los elementos por comas:
@@ -30,28 +31,21 @@ let listDeCompras = [];
 
 listDeCompras[3] = "tomates";
 listDeCompras[1] = "lechuga";
-//console.log(listDeCompras);
-
-//o podemos acceder al indice creando nueva variable de ese indice
-let elementosDelArray = listDeCompras[1];
-//console.log(elementosDelArray);
-
-//podemos conocer, cuantos elementos tiene un array con el metodo .length
-
-console.log(listDeCompras.length);
+console.log(listDeCompras); //imprime [ <1 empty item>, 'lechuga', <1 empty item>, 'tomates' ] porque se guarda los espacios que salteamos
 
 //Por un lado tenemos lo que se conoce como elemento. Los elementos son aquellos datos que hayamos guardado.
 
 //Por otro lado, está el concepto de índice. Los índices no representan al dato en sí mismo, sino la posición en la que se está guardando. Un detalle muy importante que hay que destacar es que, en los arreglos, siempre se comienza a contabilizar las posiciones desde el número cero, no el uno.
 
 // Lista de compras
-listaDeCompras[3] = "Tomates";
-listaDeCompras[1] = "Lechuga";
+listDeCompras[3] = "Tomates";
+listDeCompras[1] = "Lechuga";
 
 // Ver lista de compras
-let elementoDelArray = listaDeCompras[1];
-console.log(elementoDelArray);
+let elementoDelArray = listDeCompras[1];
+console.log(elementoDelArray); // imprime Lechuga/ el elemento que guardamos
 
-// Lenght
-let nombres = ["Matias", "Maria", "Diego", "Rosa"].length;
-console.log(nombres);
+////podemos conocer, cuantos elementos tiene un array con el metodo .length
+let nombres = ["Matias", "Maria", "Diego", "Rosa"];
+console.log(nombres); //imprime [ 'Matias', 'Maria', 'Diego', 'Rosa' ]
+console.log(nombres.length); //imprime 4, la cantidad de elementos.
