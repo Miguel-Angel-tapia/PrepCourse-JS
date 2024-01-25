@@ -1,4 +1,5 @@
-//Las funciones callback son un tipo de funciones que se pasan por parámetro a otras funciones, en esta video clase aprenderemos que son y cómo usarlas a través de algunos ejemplos.
+//Las funciones callback son un tipo de funciones que se pasan por parámetro a otras funciones.
+
 let devuelvoUsuario = function () {
   return "Camilo";
 };
@@ -9,7 +10,7 @@ let saludar = function (cb1, cb2) {
   return cb1() + " " + cb2();
 };
 let resultado = saludar(devuelvoSaludo, devuelvoUsuario);
-console.log(resultado);
+console.log(resultado); //DEVUELVE: Hola Camilo
 
 //otro ejemplo
 

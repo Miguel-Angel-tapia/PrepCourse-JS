@@ -24,6 +24,17 @@ const numerros = [1, 2, 3, 4, 5];
 numerros.splice(2, 1, 6, 7);
 // Resultado: [1, 2, 6, 7, 4, 5]
 
+//typeof es un operador en JavaScript que devuelve una cadena de texto que representa el tipo de datos de una expresión.
+const ejemplo = 42;
+console.log(typeof ejemplo); // Imprimirá 'number'
+
+const element = 42;
+if (typeof element === "number") {
+  console.log("Es un número");
+} else {
+  console.log("No es un número");
+}
+
 colores.splice(1, 2, "marron"); //(puede agregar mas de uno)
 //1(desde que indice elimina incluido)
 //2(cuantos indices elimina incluyendo donde empieza)

@@ -3,10 +3,10 @@ let mundo3 = { continentes: 7, paises: 195, oceanos: 5 };
 for (let propiedad in mundo3) {
   console.log(`Esta es la propiedad: ${propiedad}`);
   console.log(`Este es el valor: ${mundo3[propiedad]}`);
+  //
   console.log("Esta es la propiedad:", propiedad);
   console.log("Este es el valor:", mundo3[propiedad]);
-  console.log("Esta es la propiedad:", propiedad);
-  console.log("Este es el valor:", mundo3[propiedad]);
+  //
   console.log("Esta es la propiedad:" + propiedad);
   console.log("Este es el valor:" + mundo3[propiedad]);
 } // DE LAS 3 FORMAS ES CORRECTO, Y DEVUELVE
