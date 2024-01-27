@@ -19,22 +19,9 @@ colores.pop();
 colores.shift();
 
 //El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
-//splice(inicio, cantidad[, elemento1[, elemento2[, ...]]]):
-const numerros = [1, 2, 3, 4, 5];
-numerros.splice(2, 1, 6, 7);
-// Resultado: [1, 2, 6, 7, 4, 5]
-
-//typeof es un operador en JavaScript que devuelve una cadena de texto que representa el tipo de datos de una expresión.
-const ejemplo = 42;
-console.log(typeof ejemplo); // Imprimirá 'number'
-
-const element = 42;
-if (typeof element === "number") {
-  console.log("Es un número");
-} else {
-  console.log("No es un número");
-}
-
+//SINTAXIS.splice(INDES, BORRAR, AGREGAR)
+let animales = ["puma", "tigre", "leon", "perro", "gato"];
+animales.splice(2, 0, "elefante", "mamut"); //que a partir de el index 2 no elimine nada, y agregue elefante y mamut
 colores.splice(1, 2, "marron"); //(puede agregar mas de uno)
 //1(desde que indice elimina incluido)
 //2(cuantos indices elimina incluyendo donde empieza)
@@ -45,6 +32,20 @@ const subArray = numeeeeros.slice(1, 3);
 // Resultado: [2, 3]
 
 //El método sort()ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable . El modo de ordenación por defecto responde a la posición del valor de la cadena de acuerdo a su valor Unicode
+let numArray = [2, 6, 3, 8, 4, 9];
+console.log(numArray.sort()); //result: [ 2, 3, 4, 6, 8, 9 ]
+
+let stringArray = ["c", "b", "a"];
+console.log(stringArray.sort()); //result: [ 'a', 'b', 'c' ]
+
+let numArray2 = [100, 17, 110, 25, 31, 211];
+console.log(numArray2.sort()); //result: [ 100, 110, 17, 211, 25, 31 ] de esta manera solo toma el primer y segundo numero, deberiamos crear una funcion
+
+function comparar(a, b) {
+  return a - b;
+}
+console.log(numArray2.sort(comparar)); // result: [ 17, 25, 31, 100, 110, 211 ]
+console.log(numArray2.sort((a, b) => a - b)); // result: [ 17, 25, 31, 100, 110, 211 ]
 
 //El método includes() determina si un arreglo incluye o contiene un elemento específico. Devuelve true o false en cada caso.
 let pintores = ["picaso", "dali", "van gogh", "velazques"];
@@ -67,10 +68,24 @@ const nnnumeros = [1, 2, 3, 4, 5];
 const todosMayoresQueCero = nnnumeros.every((numero) => numero > 0);
 // Resultado: true
 
+//El metodo some() determina si al menos un elemento cumple con la condicion
+var nuumeros = [1, 2, 3, 4, 5];
+var resultado = nuumeros.some((elemento) => elemento > 3);
+console.log(resultado); // Imprime true
+
 //indexOf : el metodo Buscan la primera (o última) ocurrencia de un valor en el array. indexOf(valor[, desde]) y lastIndexOf(valor[, desde])
 const numeross = [1, 2, 3, 4, 2, 5];
 const indice = numeross.indexOf(2);
 // Resultado: 1
+
+//El método reverse() invierte el orden de los elementos de un array, El primer elemento pasa a ser el último y el último pasa a ser el primero.
+let arraay1 = ["uno", "dos", "tres"];
+console.log(arraay1);
+// devuelve" Array ["uno", "dos", "tres"]
+
+let invertido = array1.reverse();
+console.log(invertido);
+//devuelve [`tres`, `dos`, `uno`]
 
 //El método split() convierte un string en un array, donde cada elemento contendrá un sub-string, dependiendo del parámetro divisor que indiquemos.
 let palabra = "henri";
@@ -86,6 +101,13 @@ palabraSeparada2.pop();
 palabraSeparada2.push("y");
 let palabraArreglada2 = palabraSeparada2.join("");
 console.log(palabraArreglada2);
+
+var a = ["Viento", "Lluvia", "Fuego"];
+var miVar1 = a.join(); // asigna 'Viento,Lluvia,Fuego' a miVar1
+var miVar2 = a.join(", "); // asigna 'Viento, Lluvia, Fuego' a miVar2
+var miVar3 = a.join(" + "); // asigna 'Viento + Lluvia + Fuego' a miVar3
+var miVar4 = a.join(""); // asigna 'VientoLluviaFuego' a miVar4
+var miVar5 = a.join("-"); // asigna 'viento-lluvia-fuego' a mi var5
 
 //El método forEach() nos permite recorrer un arreglo, realizando alguna acción en para cada elemento.
 let numero = [1, 2, 3, 4];
@@ -118,13 +140,7 @@ const nummeros = [1, 2, 3, 4, 5];
 const encontrado = nummeros.find((numero) => numero > 2);
 // Resultado: 3
 
-//some(callback): el metodo Verifica si al menos un elemento cumple con la condición dada por la función de prueba.
-const numeeros = [1, 2, 3, 4, 5];
-const hayPares = numeeros.some((numero) => numero % 2 === 0);
-// Resultado: true
-
 //El método toString() devuelve una cadena de caracteres representando el array especificado y sus elementos.
-
 let array17 = [1, 2, "a", "1a"];
 
 console.log(array17.toString());

@@ -28,9 +28,6 @@ console.log(Math.pow(2, 3)); // Imprime 8
 //Math.random(): Genera un número pseudoaleatorio entre 0 (inclusive) y 1 (exclusive).
 console.log(Math.random()); // Imprime un número aleatorio entre 0 y 1
 
-//Math.sin(x), Math.cos(x), Math.tan(x): Funciones trigonométricas.
-console.log(Math.sin(Math.PI / 2)); // Imprime 1 (seno de 90 grados)
-
 //Math.max & Math.min : Estos dos métodos nos permitirán conocer el valor máximo o mínimo de un conjunto de números.
 console.log(Math.min(2, 5, 1)); // Imprime 1
 console.log(Math.max(2, 5, 1)); // Imprime 5
@@ -39,3 +36,11 @@ console.log(Math.max(2, 5, 1)); // Imprime 5
 //Si el valor de x es negativo Math.sqrt() retorna NaN.
 //Debido a que sqrt() es un método estático de Math, siempre úsalo como Math.sqrt(), en lugar de un método del objeto Math que hayas creado (Math no es un constructor).
 console.log(Math.sqrt(25)); // Imprime 5
+
+//Math.sin(x), Math.cos(x), Math.tan(x): Funciones trigonométricas.
+console.log(Math.sin(Math.PI / 2)); // Imprime 1 (seno de 90 grados)
+
+//Math.sinh(x), Math.cosh(x), Math.tanh(x): Funciones hiperbólicas.
+console.log(Math.sinh(0)); // Imprime 0
+console.log(Math.cosh(0)); // Imprime 1
+console.log(Math.tanh(0)); // Imprime 0

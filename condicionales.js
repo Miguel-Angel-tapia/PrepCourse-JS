@@ -60,19 +60,3 @@ let eedad = 20;
 //..........(Si edad es+18)  (entonces devuelve)    (si no, devuelve )
 let mensaje = eedad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
 console.log(mensaje);
-
-//switch(interruptor):
-//La declaración switch permite evaluar una expresión contra múltiples casos posibles.
-let diaSemana = 3;
-
-switch (diaSemana) {
-  case 1:
-    console.log("Lunes");
-    break;
-  case 2:
-    console.log("Martes");
-    break;
-  // Otros casos...
-  default:
-    console.log("Día no válido");
-}

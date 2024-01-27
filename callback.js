@@ -21,5 +21,5 @@ let hablar = function (comida, cb) {
   return cb(comida);
 };
 let fraseFinal = hablar("pizza", devuelvoFrase);
-console.log(fraseFinal);
+console.log(fraseFinal); // `hoy quiero comer pizza`
 //Los callbacks son muy útiles en el mundo de la programación, nos aseguran que una función no se va a ejecutar antes de que se complete una tarea, sino que se ejecutará justo después de que la tarea se haya completado.

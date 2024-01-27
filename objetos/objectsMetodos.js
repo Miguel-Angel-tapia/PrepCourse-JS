@@ -33,6 +33,20 @@ console.log(todasLasPropiedades); //  ["autor", "genero", "año"];
 var obj = { foo: "bar", baz: 42 };
 console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
 
+let persona = { name: "miguel", edad: 25, pais: "argentina" };
+console.log(persona); //{ name: 'miguel', edad: 25, pais: 'argentina' }
+console.log(Object.entries(persona)); //[ [ 'name', 'miguel' ], [ 'edad', 25 ], [ 'pais', 'argentina' ] ]
+let obtenerInfo = Object.entries(persona);
+console.log(obtenerInfo[0]); // [ 'name', 'miguel' ]
+console.log(obtenerInfo[1]); //[ 'edad', 25 ]
+console.log(obtenerInfo[2]); //[ 'pais', 'argentina' ]
+console.log(obtenerInfo[0][0]); //name
+console.log(obtenerInfo[0][1]); //miguel
+console.log(obtenerInfo[1][0]); //edad
+console.log(obtenerInfo[1][1]); // 25
+console.log(obtenerInfo[2][0]); //pais
+console.log(obtenerInfo[2][1]); //argentina
+
 // Object.getOwnPropertyNames(objeto): Devuelve un array de strings que representan todas las propiedades(enumerables y no enumerables) del objeto.
 const objeto = { a: 1, b: 2 };
 const propiedades = Object.getOwnPropertyNames(objeto);
