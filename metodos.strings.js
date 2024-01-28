@@ -25,9 +25,9 @@ console.log(texto.padEnd(8, "*")); // Devuelve "Hola****"
 var texto = "Hola";
 console.log(texto.length); // Devuelve 4
 
-//    charAt(): Método que devuelve el carácter en una posición específica de la cadena.
-var texto = "Hola";
-console.log(texto.charCodeAt(1)); // Devuelve 111 (valor Unicode de "o")
+//    replace(): Método que reemplaza una subcadena con otra.
+var texto = "Hola, mundo";
+console.log(texto.replace("mundo", "Planeta")); // Devuelve "Hola, Planeta"
 
 //    substr(): Método que extrae una cantidad específica de caracteres a partir de una posición.
 var texto = "Hola";
@@ -63,14 +63,18 @@ console.log(texto.trim()); // Devuelve "Hola"
 
 //     split(): Método que divide la cadena en un array de subcadenas basadas en un delimitador.
 var texto = "Hola, mundo";
-var arrayDePalabras = texto.split(", ");
+var arrayDePalabras = texto.split();
 console.log(arrayDePalabras); // Devuelve ["Hola", "mundo"]
+
+let palabra = "hola mundo";
+let palabraSeparada = palabra.split(``);
+console.log(palabraSeparada); //devuelve [ 'h', 'o', 'l', 'a', ' ', 'm', 'u', 'n', 'd', `o` ]
 
 //    concat(): Método que combina dos o más cadenas o arreglos.
 var texto1 = "Hola";
 var texto2 = "Mundo";
 console.log(texto1.concat(", ", texto2)); // Devuelve "Hola, Mundo"
 
-//    replace(): Método que reemplaza una subcadena con otra.
-var texto = "Hola, mundo";
-console.log(texto.replace("mundo", "Planeta")); // Devuelve "Hola, Planeta"
+//    charAt(): Método que devuelve el carácter en una posición específica de la cadena.
+var texto = "Hola";
+console.log(texto.charCodeAt(1)); // Devuelve 111 (valor Unicode de "o")

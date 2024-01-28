@@ -10,22 +10,24 @@ function viajar(destino) {
     ("");
   }
 }
-viajar("Brasil");
-viajar("Argentina");
+viajar("Brasil"); //devuelve gire a la izquierda
+viajar("Argentina"); //devuelve gire a la derecha
+viajar("uruguay"); //devuelve nos perdimos
 
-function puedeManejar(edad) {
-  if (edad >= 18) {
-    console.log(true);
+function puedeManejar(edadd) {
+  if (edadd >= 18) {
+    console.log(`puedes manejar`);
+  } else {
+    console.log(`no pudes manejar`);
   }
-  console.log(false);
 }
-
-puedeManejar(17);
+puedeManejar(18); // devuelve `puedes manejar`
+puedeManejar(17); // devuelve `no puedes manejar`
 
 // condicional IF : nos permite introducir una situacion que debe ser verdadera para que una accion se ejecute, es decir. El bloque de código dentro del if se ejecutará solo si la expresión entre paréntesis es verdadera.
-let edad = 18;
+let edaad = 18;
 
-if (edad >= 18) {
+if (edaad >= 18) {
   console.log("Eres mayor de edad.");
 }
 
@@ -41,7 +43,7 @@ if (hora < 12) {
 }
 
 // condicional ELSE : es una condicion que solo actua, si if y else if, no son verdaderas y no se ejecutan
-let esFinDeSemana = true;
+let esFinDeSemana = false;
 
 if (esFinDeSemana) {
   console.log("¡Es hora de descansar!");

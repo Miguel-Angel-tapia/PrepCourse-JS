@@ -12,3 +12,5 @@ Las expresiones regulares literales proporcionan la compilación de la expresió
 O llamando a la función constructora del objeto RegExp, de la siguiente manera:
 
 let re = new RegExp("ab+c");
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions

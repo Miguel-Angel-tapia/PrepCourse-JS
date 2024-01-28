@@ -30,16 +30,12 @@ let listDeCompras = [];
 //podemos definir en que indice se guarda el elemento en el array
 
 listDeCompras[3] = "tomates";
-listDeCompras[1] = "lechuga";
+listDeCompras[1] = "lechuga"; // [ 0, `lechuga`, 2, `tomates` ]
 console.log(listDeCompras); //imprime [ <1 empty item>, 'lechuga', <1 empty item>, 'tomates' ] porque se guarda los espacios que salteamos
 
 //Por un lado tenemos lo que se conoce como elemento. Los elementos son aquellos datos que hayamos guardado.
 
 //Por otro lado, está el concepto de índice. Los índices no representan al dato en sí mismo, sino la posición en la que se está guardando. Un detalle muy importante que hay que destacar es que, en los arreglos, siempre se comienza a contabilizar las posiciones desde el número cero, no el uno.
-
-// Lista de compras
-listDeCompras[3] = "Tomates";
-listDeCompras[1] = "Lechuga";
 
 // Ver lista de compras
 let elementoDelArray = listDeCompras[1];

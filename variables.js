@@ -10,7 +10,7 @@ let ciudad = "México"; // Declarar una variable llamada "ciudad" y asignarle el
 
 //Las constantes (const) son variables que no pueden ser reasignadas después de la primera asignación.
 const PI = 3.1416; // Declarar una constante llamada "PI" y asignarle el valor 3.1416
-const nombre = "Ana"; // Declarar una constante llamada "nombre" y asignarle el valor "Ana"
+const noombre = "Ana"; // Declarar una constante llamada "nombre" y asignarle el valor "Ana"
 
 //Tipos de datos:
 
@@ -38,18 +38,23 @@ var sinNada = null;
 //Hay varios tipos de ámbitos, pero los dos principales son:
 
 //Ámbito Global: Una variable declarada en el ámbito global es accesible desde cualquier parte del programa, ya sea dentro de funciones, bloques de código, o cualquier otro contexto.
-var globalVariable = 10;
 
-function exampleFunction() {
-  console.log(globalVariable); // Puede accederse desde cualquier lugar en el programa
-}
+let num10 = 10;
+
+let exampleFunction = function () {
+  console.log(num10); // Puede accederse desde cualquier lugar en el programa
+};
+exampleFunction(); // return 20
 
 //Ámbito Local (o de Bloque): Una variable declarada dentro de una función o bloque de código tiene ámbito local y solo es accesible dentro de ese contexto específico.
 
-function exampleFunction() {
-  var localVariable = 20;
+function ejemploFuncion() {
+  let localVariable = 20;
   console.log(localVariable); // Solo puede accederse dentro de esta función
 }
+ejemploFuncion(); //return 20
+
+
 
 //El concepto de ámbito es esencial para entender cómo las variables interactúan en un programa y cómo se manejan en distintas partes del código. En lenguajes de programación como JavaScript, el tipo de palabra clave utilizada para declarar una variable (como var, let o const) afecta el ámbito de esa variable. Por ejemplo, var tiene ámbito de función, mientras que let y const tienen ámbito de bloque.
 

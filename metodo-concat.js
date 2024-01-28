@@ -5,7 +5,7 @@ let cadena1 = "Hola, ";
 let cadena2 = "mundo!";
 let resultado = cadena1.concat(cadena2);
 
-//console.log(resultado);
+console.log(resultado);
 // Resultado: "Hola, mundo!"
 
 //En este ejemplo, cadena1 y cadena2 se concatenan utilizando el método concat(), y el resultado se almacena en la variable resultado.
@@ -15,7 +15,7 @@ let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 let resultados = array1.concat(array2);
 
-//console.log(resultados);
+console.log(resultados);
 // Resultado: [1, 2, 3, 4, 5, 6]
 
 //En este caso, array1 y array2 son arreglos numéricos que se concatenan utilizando concat(). El resultado es un nuevo arreglo que contiene todos los elementos de ambos arreglos originales.
@@ -25,7 +25,7 @@ let cadena = "Hola, ";
 let array = [1, 2, 3];
 let resultad = cadena.concat(array);
 
-//console.log(resultad);
+console.log(resultad);
 // Resultado: "Hola, 1,2,3"
 
 //En este ejemplo, una cadena y un arreglo se concatenan utilizando concat(). La función trata al arreglo como un solo elemento y lo agrega a la cadena.
@@ -37,13 +37,13 @@ let resultad = cadena.concat(array);
 //En JavaScript, puedes utilizar la sintaxis de plantillas de cadenas (template strings) con el uso de `` (backticks) y ${} para realizar concatenación de cadenas de manera más legible y flexible en comparación con el método concat(). Aquí hay una explicación y comparación:
 
 let variable1 = "Hola";
-let variable2 = "mundo";
+let variable2 = "Mundo";
 
 // Utilizando la sintaxis de plantillas de cadenas
 let resultao = `${variable1}, ${variable2}!`;
 
-//console.log(resultado);
-// Resultado: "Hola, mundo!"
+console.log(resultao);
+// Resultado: "Hola, Mundo!"
 
 let nombre = "Juan";
 let edad = 30;

@@ -7,7 +7,7 @@ let devuelvoSaludo = function () {
   return "Hola";
 };
 let saludar = function (cb1, cb2) {
-  return cb1() + " " + cb2();
+  return cb1() + ` ` + cb2();
 };
 let resultado = saludar(devuelvoSaludo, devuelvoUsuario);
 console.log(resultado); //DEVUELVE: Hola Camilo

@@ -19,7 +19,7 @@ operadorOr("H");
 function negacion(permiso) {
   if (!permiso === true) console.log("Tiene permiso");
 }
-negacion(false);
+negacion(false); // devuelve `tiene permiso` ya que false, lo toma como true. porque tenemos !not en parametro
 
 // si usamos distintos operadores logicos simultaneamente, debemos tener en cuenta la precedencia de estos!
 

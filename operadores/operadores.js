@@ -16,12 +16,10 @@ console.log(95 % 4);
 //Prueba de precedencia
 console.log(3 + 5 * 2 - 8);
 
-
-
 // los operadores se utilizan en todo tipo de datos como tambien strings
 
-let nombre = 'miguel';
-let saludo = 'hola ' +  nombre;
+let nombre = "Miguel";
+let saludo = "Hola " + nombre;
 console.log(saludo);
 
 // concatenar, es un sinonimo de unir

@@ -45,6 +45,12 @@ function procesarDato(dato) {
     console.log("Tipo de dato desconocido");
   }
 }
+procesarDato();
+procesarDato(``);
+procesarDato(1);
+procesarDato(null);
+procesarDato(true);
+procesarDato(mostrarTipoDato);
 
 //ejemplo FUNCIONES
 
@@ -74,3 +80,9 @@ function mostrarTipoDato(dato) {
       console.log("Tipo de dato desconocido");
   }
 }
+mostrarTipoDato();
+mostrarTipoDato(``);
+mostrarTipoDato(1);
+mostrarTipoDato(null);
+mostrarTipoDato(true);
+mostrarTipoDato(mostrarTipoDato);

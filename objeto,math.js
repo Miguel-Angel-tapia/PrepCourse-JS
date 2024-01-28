@@ -10,6 +10,7 @@ console.log(Math.E); // Imprime 2.718281828459045
 
 //Math.abs(x): Devuelve el valor absoluto de x.
 console.log(Math.abs(-5)); // Imprime 5
+console.log(Math.abs(6.5, 5)); // Imprime 6.5
 
 //Math.round & Math.floor & Math.ceil :A veces necesitamos redondear un número decimal, ya que muchas veces las operaciones matemáticas pueden resultar en números con coma. Para esto, JavaScript nos ofrece tres métodos
 

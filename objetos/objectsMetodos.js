@@ -98,8 +98,6 @@ Object.seal(obj);
 obj.c = 3; // No tiene efecto en un objeto sellado
 delete obj.a; // No tiene efecto en un objeto sellado
 
-//El método sort()ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable . El modo de ordenación por defecto responde a la posición del valor de la cadena de acuerdo a su valor Unicode
-
 // Object.create(prototipo): Crea un nuevo objeto con el prototipo especificado.Es útil para crear herencia en JavaScript.
 
 //Object.getPrototypeOf(objeto): Devuelve el prototipo del objeto.
