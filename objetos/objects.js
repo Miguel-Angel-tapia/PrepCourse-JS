@@ -21,15 +21,15 @@ console.log(persona1.edad);
 
 // ASIGNAR Para cambiar el valor de una propiedad simplemente tenemos que acceder a ella e igualarla al nuevo valor.
 var persona2 = {
-  nombres: "Lucas",
+  nombre: "juan",
   edad: 26,
   estudios: { esProgramador: true },
 };
-persona.nombres = "Martín";
+persona2.nombre = "Martín";
 console.log(persona2.nombre);
 
 //CREAR
-var autos = {};
+let autos = {};
 autos.marcas = ["Ford", "Audi", "Ferrari"];
 console.log(autos);
 
@@ -42,8 +42,13 @@ let misFunciones = {
   saludar: function () {
     console.log("hola");
   },
+  despedir: function () {
+    console.log("chau");
+  },
 };
 misFunciones.saludar(); //asi llamamos a la funcion
+misFunciones.despedir();
+console.log(misFunciones);
 
 //PODEMOS COMBINAR OBJETOS MEDIANTE OPERADOR DE PROPAGACION
 //Objetos Literales:

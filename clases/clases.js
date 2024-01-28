@@ -45,7 +45,6 @@ class Auto2 {
 
 // declaramos una variable, con la palabra reservada new que nos permite crear una instancia de nuestra clase y le damos los valores
 let miSegundoAuto = new Auto2(4, "Blanco", "Fiat", 2015, 4);
-console.log(miSegundoAuto);
 console.log(miSegundoAuto.marca);
 miSegundoAuto.informacion();
 
@@ -60,4 +59,5 @@ class futbol {
 }
 let argentina = new futbol("messi"); // agregamos la propiedad argentina, con el valor messi. a la clase futbol
 let brasil = new futbol("neymar");
-argentina.obtenerNombre(); // primero llamamos a la variable, y luego a la funcion
+argentina.obtenerNombre(); // devuelve: `messi` , primero llamamos a la variable, y luego a la funcion
+brasil.obtenerNombre(); // devuelve: `neymar`

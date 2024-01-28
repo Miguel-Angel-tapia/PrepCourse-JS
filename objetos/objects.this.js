@@ -8,8 +8,7 @@ var mascota = {
   dueño: "María López",
   info: function () {
     console.log("Mi perro es un  " + this.raza);
+    console.log(`mi ${this.animal} es un ${this.raza} y se porta bien`);
   },
 };
 mascota.info(); //devuelve : Mi perro es un  Ovejero Alemán
-
-// algunas situaciones comunes en las que this puede ser utilizado:

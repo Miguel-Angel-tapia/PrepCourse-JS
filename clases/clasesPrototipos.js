@@ -17,7 +17,8 @@ Array.prototype.mayorQueTres = function () {
 
 var arreglo = [1, 2, 3, 4, 5];
 var nuevoArreglo = arreglo.mayorQueTres();
-console.log(nuevoArreglo); //llamamos a la variable que creamos para la funcion
+console.log(nuevoArreglo); //return [ 1, 2, 3, false, false ]
+//llamamos a la variable que creamos para la funcion
 
 //OTRO EJEMPLO
 
@@ -31,4 +32,9 @@ LatinoAmerica.prototype.agregarPais = function (pais) {
 };
 let continente = new LatinoAmerica();
 continente.agregarPais("mexico");
-console.log(continente.paises); // llamamos primero la variable que usamos para agregar y luego a la propiedad del this.push
+continente.agregarPais("argentina");
+continente.agregarPais("brasil");
+
+console.log(continente); // return LatinoAmerica { paises: [ 'mexico', 'argentina', 'brasil' ] }
+console.log(continente.paises); //return [ 'mexico', 'argentina', 'brasil' ]
+// llamamos primero la variable que usamos para agregar y luego a la propiedad del this.push
