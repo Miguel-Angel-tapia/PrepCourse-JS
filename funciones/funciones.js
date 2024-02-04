@@ -59,4 +59,5 @@ let resultadoResta = restar(8, 3);
 console.log(resultadoResta); // Imprime 5
 
 const duplicar = (numero) => numero * 2;
-console.log(duplicar(2)) //imprime 4
+console.log(duplicar(2)); //imprime 4
+//podemos aplicarlos en metodos de arrays

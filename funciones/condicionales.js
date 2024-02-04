@@ -62,3 +62,7 @@ let eedad = 20;
 //..........(Si edad es+18)  (entonces devuelve)    (si no, devuelve )
 let mensaje = eedad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
 console.log(mensaje);
+
+const tituloValido = Title;
+const descripcionValida = Description;
+const ImgurlValida = Imgurl;

@@ -168,6 +168,7 @@ console.log(frutas.length); // Imprime 2
 //Otros metodos:///////////////////////////////////////////////////////////////
 //forEach(): Realiza una acción por cada elemento del array.
 //reduce(): Ejecuta una función reductora sobre cada elemento del array.
+//El método split() convierte un string en un array, donde cada elemento contendrá un sub-string,
 {
   //        Iteración y Acciones Específicas:******************
   //forEach(): Realiza una acción por cada elemento del array.
