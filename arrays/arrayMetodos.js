@@ -86,6 +86,7 @@ console.log(frutas.length); // Imprime 2
 //slice(): Devuelve una copia de una porción del array.
 //map(): Crea un nuevo array con elementos modificados.
 //filter(): Crea un nuevo array con elementos que cumplen una condición.
+
 {
   //            Ordenamiento:*****************
 
@@ -140,8 +141,9 @@ console.log(frutas.length); // Imprime 2
 //Métodos de Conversión://///////////////////////////////////////////////////
 //toString(): Devuelve una cadena representando el array y sus elementos.
 //join(): Convierte un arreglo en un string, uniendo todos los elementos.
+
+//            Conversión a Cadenas:*******************
 {
-  //            Conversión a Cadenas:*******************
   //toString(): Devuelve una cadena representando el array y sus elementos.
   //El método toString() devuelve una cadena de caracteres representando el array especificado y sus elementos.
   let array17 = [1, 2, "a", "1a"];
